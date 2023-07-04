@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnRaMeGen ~ The Online Random Message Generator</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(5, 101, 101);
+            color: white;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        main {
+            border: 3px solid white;
+            margin-top: 15%;
+
+            max-width: 80vw;
+        }
+
+        h1 {
+            text-align: center;
+
+            font-size: 4em;
+        }
+
+        p {
+            font-size: 2em;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+    <main>
+    <h1>OnRaMeGen</h1>
+
+    <div>
+        <p id="server-message"></p>
+    </div>
+    <button>Click me</button>
+    </main>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
